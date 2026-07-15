@@ -1,0 +1,56 @@
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--font-Sunrise: "sangblue";
+--font-DM:"dm-sans";
+--color1:#FFFFFF;
+--color2:#AA6AAA;
+--color:#18212D;
+--color-3:#717175;
+--color-4:#BEBEBE;
+--color-5:#DCDCDC;
+--color-6:#EAE3EA;
+--color-7:#EAE4EA;
+--color-8:#EFEEED;
+--color-9:#1F201C;
+--color-10:#666666;
+--border-color:#E5DCE5;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+} 
+.banner{
+  background-image: url(image/banner.png); 
+  
+
+} 
+@font-face {
+  font-family: "sangblue";
+  src: url(font/SangBleu-Sunrise.ttf) format(truetype);
+} 
+@font-face {
+  font-family: "dm-sans";
+  src: url(font/DM_Sans/static/DMSans-SemiBold.ttf) format(truetype);
+}
